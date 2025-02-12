@@ -44,7 +44,7 @@ DesktopView States:
 
 ![Sucess State](<SolutionDesing/DesktopView SucessState.png>)
 
-MobileView:
+
 ![MobileDesing](SolutionDesing/MobileView.png)
 
 
