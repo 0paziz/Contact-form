@@ -11,27 +11,9 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- Complete the form and see a success toast message upon successful submission
-- Receive form validation messages if:
-  - A required field has been missed
-  - The email address is not formatted correctly
-- Complete the form only using their keyboard
-- Have inputs, error messages, and the success message announced on their screen reader
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
@@ -98,23 +80,6 @@ input[type="radio"]:checked + label::before {
 
 ```
 
-### Explanation
-
-- The ::before pseudo-element is used to create a custom radio button.
-- It is styled as a circular shape (border-radius: 50%) and positioned before the label.
-- When the radio button is checked, the background color changes, and an inner circle effect is created using box-shadow.
-- Smooth transitions enhance the UI experience.
-
-### Continued development
-
-- Advanced Form Styling – Enhancing the appearance of form elements for a more polished and user-friendly design.
-- JavaScript Form Validation – Strengthening my skills in client-side validation to improve user experience and data accuracy.
-- CSS Animations & Transitions – Refining smooth effects to make UI interactions more engaging.
-- Accessibility & UX Best Practices – Ensuring that forms and other UI components are accessible to all users.
-- Optimizing for Performance – Learning better ways to write efficient and maintainable code.
-
-
-
 ### Useful resources
 
 - [CSS radio button](https://dev.to/gscode/10-radio-button-css-style-examples-ph6) - This helped me for styling radio button. I really liked this pattern and will use it going forward.
@@ -124,19 +89,4 @@ input[type="radio"]:checked + label::before {
 
 - Website - [Aziz-portfolio](https://0paziz.github.io/Aziz-portfolio/index.html)
 - Frontend Mentor - [@0paziz](https://www.frontendmentor.io/profile/@0paziz)
-- Twitter - [@0paziz](https://www.twitter.com/@0paziz)
-
-
-
-## Acknowledgments
-
-I would like to express my gratitude to everyone who contributed to my learning and progress on this project.
-
-- Online Resources & Documentation: Platforms like MDN Web Docs, React Docs, and CSS-Tricks helped me better understand key concepts.
-
-- Community Support: Thanks to the developer community on Stack Overflow and GitHub discussions for insightful solutions and troubleshooting tips.
-
-- Inspiration from Other Projects: Looking at various frontend projects and design inspirations helped me refine my approach to achieving the desired layout and responsiveness.
-
-Their guidance and resources played a crucial role in overcoming challenges and improving the overall quality of my work. 
-
+- Linkedin - [abdiaziz-omar](https://www.linkedin.com/in/abdiaziz-omar-876b06256/)
