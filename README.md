@@ -50,8 +50,8 @@ DesktopView States:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/0paziz/Contact-form)
+- Live Site URL: [Add live site URL here](https://0paziz.github.io/Contact-form/)
 
 ## My process
 
