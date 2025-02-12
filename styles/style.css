@@ -1,0 +1,245 @@
+@charset "UTF-8";
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(148, 38%, 91%);
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 700;
+  font-style: normal;
+  height: 118vh;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px 40px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+}
+.form-container #star {
+  padding-left: 5px;
+  color: hsl(169, 82%, 27%);
+}
+
+label {
+  display: block;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.Name-input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.Name-input-group input {
+  width: 220px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid hsl(187, 24%, 22%);
+}
+.Name-input-group p {
+  color: hsl(0, 66%, 54%);
+  display: none;
+}
+
+:focus {
+  outline: none;
+}
+
+:focus {
+  outline: 1px solid hsl(169, 82%, 27%);
+}
+
+.Email-input {
+  margin-bottom: 25px;
+}
+.Email-input input {
+  width: 95%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid hsl(187, 24%, 22%);
+}
+.Email-input p {
+  color: hsl(0, 66%, 54%);
+  display: none;
+}
+
+.input-query {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  gap: 10px;
+  /* Hide the default radio button */
+  /* Create a custom radio button */
+  /* When the radio button is checked */
+}
+.input-query .query {
+  width: 100%;
+  padding: 1px 10px;
+  border-radius: 10px;
+  border: 1px solid hsl(187, 24%, 22%);
+}
+.input-query input[type=radio] {
+  display: none;
+}
+.input-query input[type=radio] + label::before {
+  cursor: pointer;
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #333;
+  border-radius: 50%; /* Make it circular */
+  background-color: white;
+  margin-right: 8px;
+  vertical-align: middle;
+  transition: background 0.3s, border 0.3s, box-shadow 0.3s;
+}
+.input-query input[type=radio]:checked + label::before {
+  background-color: hsl(169, 82%, 27%);
+  border-color: hsl(169, 82%, 27%);
+  box-shadow: inset 0 0 0 5px white; /* Inner circle effect */
+}
+#errorMessage-Q {
+  color: hsl(0, 66%, 54%);
+  display: none;
+}
+
+.Message-input {
+  margin-bottom: 30px;
+}
+.Message-input textarea {
+  width: 95%;
+  padding: 12px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid hsl(187, 24%, 22%);
+}
+.Message-input p {
+  color: hsl(0, 66%, 54%);
+  display: none;
+}
+
+.checkbox {
+  margin-bottom: 30px;
+  /* Style the custom checkbox */
+  /* Hide default checkbox */
+  /* Create custom checkbox */
+  /* Add checkmark when checked */
+}
+.checkbox #errorMessage-CH {
+  color: hsl(0, 66%, 54%);
+  display: none;
+}
+.checkbox input[type=checkbox] {
+  display: none;
+}
+.checkbox input[type=checkbox] + label::before {
+  cursor: pointer;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: white;
+  margin-right: 15px;
+  vertical-align: middle;
+  transition: background 0.3s, border 0.3s;
+}
+.checkbox input[type=checkbox]:checked + label::before {
+  background-color: hsl(169, 82%, 27%);
+  border-color: hsl(169, 82%, 27%);
+  content: "✓";
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#submitbtn {
+  width: 100%;
+  border: none;
+  background-color: hsl(169, 82%, 27%);
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+#submitbtn:hover {
+  background-color: hsl(187, 24%, 22%);
+}
+
+.Message-display {
+  background-color: hsl(187, 24%, 22%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: justify;
+  position: relative;
+  z-index: 10px;
+  display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Message-display h5 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Message-display p {
+  color: hsl(148, 38%, 91%);
+}
+
+.Message-display img {
+  padding-right: 3px;
+  vertical-align: middle;
+}
+
+@media (max-width: 430px) {
+  .form-container {
+    width: 250px;
+    padding-left: 20px;
+  }
+  .Name-input-group {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Name-input-group input {
+    width: 100%;
+    padding: 12px;
+  }
+  .Email-input input {
+    width: 100%;
+    padding: 12px;
+  }
+  .input-query {
+    flex-direction: column;
+  }
+  .checkbox input[type=checkbox] + label::before {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+  }
+  .checkbox label {
+    padding-right: 0;
+    text-align: left;
+  }
+  .Message-input textarea {
+    height: 100px;
+  }
+  button {
+    margin-left: 5px;
+  }
+  .Message-display {
+    width: 250px;
+    padding: 1px 25px !important;
+  }
+}/*# sourceMappingURL=style.css.map */

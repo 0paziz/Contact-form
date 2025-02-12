@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+  
+  <title>Abdiaziz Jama | Contact form page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+   <!--display sucess message -->
+   <div class="Message-display" id="messageDisplay">
+    <h5> <img src="/assets/images/icon-success-check.svg"> Message Sent!</h5>
+     <p>Thanks for completing the form. We'll be in touch soon!</p>
+   </div>
+<main>
+ 
+  <div class="form-container">
+   <h1>Contact Us </h1> 
+    <form id="f1" method="post" action="">
+
+      <div class="Name-input-group">
+
+        <div class="first Names-input">
+      <label for="firstName">First Name <span id="star">*</span> </label>
+      <input type="text" name="firstName" id="firstName" >
+      <p id="errorMessage-fn">This field is required</p>
+    </div>
+
+    <div class="Last Names-input">
+      <label for="lastName">Last Name <span id="star">*</span></label>
+      <input type="text" name="lastName" id="lastName" >
+      <p id="errorMessage-ln">This field is required</p>
+      </div>
+
+    </div>
+ 
+
+    <div class="Email-input">
+      <label for="email">Email Address <span id="star">*</span></label>
+      <input type="email" name="email" id="email" >
+      <p id="errorMessage-Email">This field is required</p>
+    </div>
+
+    <div class="query-input-group">
+
+      <label for="radio">Query type <span id="star">*</span></label>
+      <div class="input-query" >
+      <div class="GE query ">
+
+        <input type="radio" name="radio" id="radio-1" >
+         <label for="radio-1">General Enquiry</label>  </div>
+      <div class="SR query">
+
+        <input type="radio" name="radio" id="radio-2">
+        <label for="radio-2">Support Request</label>
+      </div>
+    </div>
+      <p id="errorMessage-Q"> Please select a query type</p>
+    </div>
+
+    <div class="Message-input">
+      <label for="Message">Message <span id="star">*</span></label>
+     <textarea name="text" id="text"></textarea>
+      <p id="errorMessage-M">This field is required</p>
+    </div>
+
+<div class="checkbox">
+ <input type="checkbox" name="checkbox" id="checkbox" > 
+    <label for="checkbox">I consent to being contacted by the team <span id="star">*</span></label> 
+  <p id="errorMessage-CH">To submit this form, please consent to being contacted</p>
+</div>
+
+  <button id="submitbtn">Submit</button>
+
+  
+</form>
+
+
+</div>
+  
+
+</main>
+
+ 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdiaziz Omar Jama</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

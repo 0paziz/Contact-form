@@ -1,0 +1,30 @@
+  Contact us
+
+  first Name
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+  I consent to being contacted by the team
+  To submit this form, please consent to being contacted
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon!
+
+  <div class="Message-display">
+      <h5>Message Sent!</h5>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </div>
