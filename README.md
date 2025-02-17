@@ -22,13 +22,6 @@ DesktopView States:
 
 ![Data Entry](SolutionDesing/DesktopviewDataEntry.png)
 
-![error State](<SolutionDesing/DesktopView error State.png>)
-
-![Sucess State](<SolutionDesing/DesktopView SucessState.png>)
-
-
-![MobileDesing](SolutionDesing/MobileView.png)
-
 
 ### Links
 
